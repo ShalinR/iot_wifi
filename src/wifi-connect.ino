@@ -30,7 +30,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  Serial.println("ESP32 is connected to WiFi");l
+  Serial.println("ESP32 is connected to WiFi");
   Serial.print("ESP32 IP Address: ");
   Serial.println(WiFi.loacalIP());
   delay(loop_delay);
